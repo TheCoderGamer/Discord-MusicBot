@@ -39,7 +39,7 @@ lavalink:
       repository: "https://maven.lavalink.dev/releases"
   pluginsDir: "./plugins"
   server:
-    password: "youshallnotpass"
+    password: "nagatoro"
     sources:
       youtube: false
       bandcamp: true

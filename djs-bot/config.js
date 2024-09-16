@@ -6,7 +6,7 @@ module.exports = {
 	/**
 	 * Name of the bot
 	 * @type {string} */
-	name: "InsertNameHereBot",
+	name: "NagatoroMusicBot",
 	/**
 	 * Database option (mongodb, postgresql) https://www.prisma.io/docs/reference/database-reference/connection-urls
 	 * @type {string} */
@@ -146,18 +146,18 @@ module.exports = {
 		 */
 		activities: [
 			{
-				name: "{someVariable} servers",
+				name: "a nagatoro {someVariable}h seguidas",
 				type: "WATCHING",
 				data: (client) => {
 					return {
 						someVariable: client.guilds.cache.size,
-					};
-				},
+					}
+				}
 			},
 			{
-				name: "Music",
+				name: "openings de anime UwU",
 				type: "LISTENING",
-			},
+			}
 		],
 	},
 

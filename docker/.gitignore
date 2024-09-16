@@ -1,2 +1,4 @@
 .env
 lavalink.env
+
+lavalink/plugins
